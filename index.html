@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Accueil - Gîte La Lavande</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/lang.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" data-lang="fr">Accueil</a>
+      <a href="gite.html" data-lang="fr">Le gîte</a>
+      <a href="rates.html" data-lang="fr">Tarifs</a>
+      <a href="gallery.html" data-lang="fr">Galerie</a>
+      <a href="activities.html" data-lang="fr">Activités</a>
+      <a href="location.html" data-lang="fr">Accès</a>
+      <a href="contact.html" data-lang="fr">Contact</a>
+      <span class="lang-switch">
+        <button onclick="setLanguage('fr')">FR</button>
+        <button onclick="setLanguage('en')">EN</button>
+      </span>
+    </nav>
+  </header>
+  <main>
+    <section id="fr">
+      <h1>Bienvenue au Gîte La Lavande</h1>
+      <p>Un havre de paix au cœur de la Provence.</p>
+    </section>
+    <section id="en" style="display:none;">
+      <h1>Welcome to La Lavande Cottage</h1>
+      <p>A peaceful haven in the heart of Provence.</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Gîte La Lavande</p>
+  </footer>
+</body>
+</html>

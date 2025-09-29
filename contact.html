@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/lang.js" defer></script>
+</head>
+<body>
+  <header>...</header>
+  <main>
+    <section id="fr">
+      <h2>Contact</h2>
+      <form action="https://formspree.io/f/yourformid" method="POST">
+        <label for="nom">Nom :</label>
+        <input type="text" name="nom" required>
+        <label for="email">Email :</label>
+        <input type="email" name="email" required>
+        <label for="message">Message :</label>
+        <textarea name="message" required></textarea>
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+    <section id="en" style="display:none;">
+      <h2>Contact</h2>
+      <form action="https://formspree.io/f/yourformid" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea name="message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+  <footer>...</footer>
+</body>
+</html>
