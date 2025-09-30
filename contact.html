@@ -1,40 +1,47 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Contact</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
-  <script src="js/lang.js" defer></script>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Contact - La Maison</title>
+<link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>...</header>
-  <main>
-    <section id="fr">
-      <h2>Contact</h2>
-      <form action="https://formspree.io/f/yourformid" method="POST">
-        <label for="nom">Nom :</label>
-        <input type="text" name="nom" required>
-        <label for="email">Email :</label>
-        <input type="email" name="email" required>
-        <label for="message">Message :</label>
-        <textarea name="message" required></textarea>
-        <button type="submit">Envoyer</button>
-      </form>
-    </section>
-    <section id="en" style="display:none;">
-      <h2>Contact</h2>
-      <form action="https://formspree.io/f/yourformid" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" name="name" required>
-        <label for="email">Email:</label>
-        <input type="email" name="email" required>
-        <label for="message">Message:</label>
-        <textarea name="message" required></textarea>
-        <button type="submit">Send</button>
-      </form>
-    </section>
-  </main>
-  <footer>...</footer>
+
+<header>
+<h1>Contactez-Nous</h1>
+</header>
+
+<nav>
+<a href="index.html">Accueil</a>
+<a href="galerie.html">Galerie</a>
+<a href="activites.html">Activités</a>
+<a href="access.html">Accès</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<main>
+<h2>Formulaire de contact</h2>
+<form>
+  <label for="name">Nom et Prénom :</label>
+  <input type="text" id="name" name="name" required />
+
+  <label for="email">Adresse Email :</label>
+  <input type="email" id="email" name="email" required />
+
+  <label for="subject">Sujet :</label>
+  <input type="text" id="subject" name="subject" required />
+
+  <label for="message">Message :</label>
+  <textarea id="message" name="message" rows="6" required></textarea>
+
+  <button type="submit">Envoyer</button>
+</form>
+</main>
+
+<footer>
+&copy; 2025 La Maison d'Hôte en Provence - Tous droits réservés
+</footer>
+
 </body>
 </html>
