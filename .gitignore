@@ -1,0 +1,7 @@
+id_*
+*.pem
+.env
+.DS_Store
+node_modules/
+.vscode/
+
